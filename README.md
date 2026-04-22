@@ -199,7 +199,66 @@ Model đã tải sẽ có file `model_version.json`.
 
 ## Yêu cầu hệ thống
 
+### Cấu hình tối thiểu (chạy được nhưng chậm)
+
 - Python 3.8+
-- RAM: tối thiểu 8GB (khuyến nghị 16GB)
-- GPU VRAM: tối thiểu 6GB (khuyến nghị 8GB+)
-- Ổ cứng trống: tối thiểu 5GB
+- RAM: 8GB
+- GPU: 4GB VRAM (GTX 1650 / Quadro P2000 / RTX 3050)
+
+### Cấu hình khuyến nghị
+
+- RAM: 16GB
+- GPU: 8GB+ VRAM (RTX 4070 / RTX 4080 / RTX 4090)
+
+### Cấu hình hiện tại đã test
+
+| Thông số | Giá trị |
+|----------|---------|
+| GPU | Quadro P2000 |
+| VRAM | 4GB |
+| Trạng thái | ✅ Chạy được |
+
+---
+
+## Khuyến nghị: Chạy bằng Google Colab
+
+### Tại sao nên dùng Colab?
+
+| So sánh | Laptop của bạn | Google Colab |
+|---------|---------------|-------------|
+| GPU | Quadro P2000 (4GB) | T4 (15GB), A100 (40GB) |
+| VRAM | 4GB | 15GB-40GB |
+| Tốc độ | Chậm | Nhanh |
+| Miễn phí | ✅ | ✅ (với T4) |
+
+### Cách chạy trên Colab
+
+1. Mở https://colab.research.google.com
+2. Tạo notebook mới
+3. Chạy các lệnh sau:
+
+```python
+# Clone repo
+!git clone https://github.com/TranNguyenDung/OmniVoice_RunCode.git
+%cd OmniVoice_RunCode
+
+# Cài đặt
+!pip install torch==2.8.0 torchaudio==2.8.0
+!pip install omnivoice huggingface_hub
+
+# Chạy Voice Design
+%cd function_voice_generator
+!python function_voice_generator.py
+
+# Hoặc chạy Voice Cloning
+%cd ../function_cloneaudio
+!python function_cloneaudio.py
+```
+
+4. Tải file audio từ folder `Output/` về máy
+
+### Lưu ý khi dùng Colab
+
+- Chọn GPU T4 (miễn phí) hoặc A100 (có phí)
+- Runtime phải được kết nối để dùng GPU
+- File trong Colab sẽ bị xóa khi runtime hết hạn, nhớ tải về ngay!
