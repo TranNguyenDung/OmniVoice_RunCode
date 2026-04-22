@@ -1,0 +1,99 @@
+# ============================================
+# MẪU ĐANG DÙNG (xóa # để kích hoạt)
+# ============================================
+female, young adult
+
+# ============================================
+# CẤU HÌNH GIỌNG VOICE DESIGN
+# ============================================
+# Cách dùng: Bỏ # trước mẫu muốn dùng
+# Format: thuộc_tính_1, thuộc_tính_2, ...
+# VD: female, young adult, high pitch, british accent
+
+# ---------- GIỚI TÍNH ----------
+male  # Giọng nam
+female  # Giọng nữ
+
+# ---------- TUỔI ----------
+child  # Trẻ em
+teenager  # Thiếu niên
+young adult  # Trẻ
+middle-aged  # Trung niên
+elderly  # Cao tuổi
+
+# ---------- ĐỘ CAO GIỌNG ----------
+very low pitch  # Rất thấp
+low pitch  # Thấp
+moderate pitch  # Trung bình
+high pitch  # Cao
+very high pitch  # Rất cao
+
+# ---------- PHONG CÁCH ----------
+whisper  # Thì thầm
+
+# ---------- ACCENT ----------
+american accent  # Tiếng Anh Mỹ
+british accent  # Tiếng Anh Anh
+australian accent  # Tiếng Anh Úc
+canadian accent  # Tiếng Anh Canada
+indian accent  # Tiếng Anh Ấn
+chinese accent  # Tiếng Trung
+
+# ---------- MẪU KẾT HỢP ----------
+
+# NAM - Các giọng nam phổ biến
+male  # Nam mặc định
+male, middle-aged  # Nam trung niên
+male, elderly  # Nam cao tuổi
+male, young adult  # Nam trẻ
+
+# NAM - Giọng trầm
+male, low pitch  # Nam giọng trầm
+male, very low pitch  # Nam giọng rất trầm
+male, deep voice  # Nam giọng trầm sâu
+male, middle-aged, low pitch  # Nam trung niên giọng trầm
+male, elderly, low pitch  # Nam cao tuổi giọng trầm
+
+# NAM - Accent Anh
+male, british accent  # Nam giọng Anh
+male, british accent, middle-aged  # Nam Anh trung niên
+male, british accent, elderly  # Nam Anh cao tuổi
+
+# NAM - Accent Mỹ
+male, american accent  # Nam giọng Mỹ
+male, american accent, middle-aged  # Nam Mỹ trung niên
+
+# NỮ - Các giọng nữ phổ biến
+female  # Nữ mặc định
+female, middle-aged  # Nữ trung niên
+female, elderly  # Nữ cao tuổi
+female, young adult  # Nữ trẻ
+
+# NỮ - Giọng cao/ngọt
+female, high pitch  # Nữ giọng cao
+female, very high pitch  # Nữ giọng rất cao
+female, sweet voice  # Nữ giọng ngọt
+female, young adult, high pitch  # Nữ trẻ giọng cao
+female, middle-aged, high pitch  # Nữ trung niên giọng cao
+
+# NỮ - Accent Anh
+female, british accent  # Nữ giọng Anh
+female, british accent, middle-aged  # Nữ Anh trung niên
+female, british accent, young adult  # Nữ Anh trẻ
+
+# NỮ - Accent Mỹ
+female, american accent  # Nữ giọng Mỹ
+female, american accent, young adult  # Nữ Mỹ trẻ
+
+# NỮ - Phong cách đặc biệt
+female, whisper  # Nữ giọng thì thầm
+female, middle-aged, whisper  # Nữ trung niên giọng thì thầm
+
+# TRẺ EM - Giọng trẻ em
+child  # Trẻ em
+teenager  # Thiếu niên
+
+# PHONG CÁCH - Các phong cách đặc biệt
+whisper  # Giọng thì thầm
+sad voice  # Giọng buồn
+happy voice  # Giọng vui

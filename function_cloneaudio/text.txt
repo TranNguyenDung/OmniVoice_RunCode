@@ -1,0 +1,53 @@
+Hôm này giới thiệu các bạn một agent OpenCode. OpenCode là một AI agent hỗ trợ lập trình, hoạt động trực tiếp trong terminal, giúp tự động hóa việc viết code, sửa lỗi, phân tích dự án và thực thi các tác vụ kỹ thuật.
+
+Nhưng điều quan trọng là, OpenCode không chỉ dùng để lập trình. Nó còn có thể xử lý văn bản và hỗ trợ nhiều công việc khác ngoài code.
+
+Hiện tại, OpenCode là một dự án mã nguồn mở rất phổ biến trên GitHub, với hàng trăm nghìn sao và cộng đồng sử dụng rất lớn. Điều này cho thấy nó không chỉ là một công cụ thử nghiệm, mà đã được áp dụng thực tế trong nhiều workflow của lập trình viên.
+
+OpenCode hỗ trợ nhiều model AI khác nhau, bao gồm cả các model miễn phí. Một số model free phổ biến có thể sử dụng là Gemini Flash, Gemini Flash Lite, Gemma 2B, Gemma 7B, Qwen 30B, MiniMax miễn phí, Ling 2.6 free, GPT OSS 20B và các model chạy local như Ollama hoặc LM Studio.
+
+Điều này giúp bạn linh hoạt giữa việc tiết kiệm chi phí và đạt hiệu năng cao.
+
+Về khả năng, OpenCode có thể đọc toàn bộ project, hiểu cấu trúc code, chỉnh sửa file, viết thêm tính năng, chạy lệnh terminal, debug lỗi và tự động thử lại nhiều lần để cải thiện kết quả.
+
+Nhưng ngoài lập trình, OpenCode còn có thể xử lý văn bản rất mạnh.
+
+Bạn có thể dùng OpenCode để viết nội dung, tóm tắt tài liệu, dịch ngôn ngữ, chỉnh sửa câu chữ, viết blog, viết kịch bản video, hoặc chuẩn hóa văn bản để đưa vào hệ thống TTS.
+
+Ví dụ, bạn có thể yêu cầu viết lại một bài viết theo phong cách dễ hiểu, hoặc chuyển văn bản kỹ thuật thành dạng đọc mượt cho giọng nói AI.
+
+Ngoài ra, OpenCode còn có thể hỗ trợ các công việc như tạo tài liệu kỹ thuật, viết README cho dự án, phân tích log hệ thống, xử lý file JSON, CSV, hoặc tự động hóa các tác vụ lặp lại như đổi tên file, sắp xếp dữ liệu, hoặc chạy script hàng loạt.
+
+Nếu bạn làm content, bạn có thể dùng OpenCode để tạo tiêu đề YouTube, viết mô tả TikTok, tạo hashtag, hoặc xây dựng kịch bản video.
+
+Nếu bạn làm DevOps, bạn có thể dùng nó để viết script triển khai, kiểm tra server, hoặc tối ưu cấu hình.
+
+OpenCode hoạt động theo mô hình agent. Có hai loại agent chính. Agent build có thể chỉnh sửa code và thực thi tác vụ. Agent plan chỉ phân tích và đưa ra kế hoạch mà không thay đổi code.
+
+Cách tách này giúp bạn kiểm soát tốt hơn và giảm rủi ro.
+
+Một điểm mạnh là OpenCode chạy hoàn toàn trong terminal, không cần giao diện đồ họa nặng. Điều này giúp nó nhanh, nhẹ và phù hợp với môi trường làm việc chuyên nghiệp.
+
+Về cài đặt, cách đơn giản nhất là sử dụng Node.js và npm.
+
+Bạn chỉ cần chạy lệnh npm install gạch ngang g opencode-ai.
+
+Sau đó, gõ lệnh opencode để bắt đầu sử dụng.
+
+Khi sử dụng, bạn chỉ cần nhập yêu cầu bằng ngôn ngữ tự nhiên. Ví dụ, bạn có thể yêu cầu tạo API, sửa lỗi trong file, viết lại một đoạn văn cho dễ đọc, hoặc tóm tắt một tài liệu dài.
+
+Một workflow hiệu quả là bắt đầu bằng agent plan để phân tích, sau đó dùng agent build để thực thi, và cuối cùng yêu cầu tối ưu hoặc sửa lỗi.
+
+Để đạt hiệu quả cao, bạn nên chia nhỏ công việc. Không nên yêu cầu quá nhiều trong một lần. Điều này giúp AI xử lý chính xác hơn.
+
+Bạn cũng có thể chạy nhiều phiên làm việc song song để tăng tốc, hoặc sử dụng model local để tiết kiệm chi phí khi không cần độ chính xác quá cao.
+
+Tuy nhiên, cần lưu ý rằng OpenCode không phải lúc nào cũng đúng hoàn toàn. Bạn vẫn cần kiểm tra lại kết quả trước khi sử dụng trong thực tế.
+
+Ngoài ra, nếu sử dụng model online, bạn có thể bị tính phí theo lượng sử dụng.
+
+So với các công cụ khác như Copilot hoặc Cursor, OpenCode mạnh hơn ở khả năng tự động hóa và kiểm soát. Nó không chỉ gợi ý, mà thực sự có thể thực hiện công việc thay bạn.
+
+Tóm lại, OpenCode không chỉ là một công cụ lập trình, mà là một trợ lý AI đa năng. Nó có thể giúp bạn viết code, xử lý văn bản, tạo nội dung, tự động hóa công việc và tăng tốc toàn bộ quy trình làm việc.
+
+Nếu bạn biết cách sử dụng đúng, OpenCode có thể trở thành một công cụ cực kỳ mạnh, không chỉ cho developer mà còn cho content creator, kỹ sư hệ thống và bất kỳ ai làm việc với dữ liệu và văn bản.
