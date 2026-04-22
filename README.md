@@ -262,3 +262,17 @@ Model đã tải sẽ có file `model_version.json`.
 - Chọn GPU T4 (miễn phí) hoặc A100 (có phí)
 - Runtime phải được kết nối để dùng GPU
 - File trong Colab sẽ bị xóa khi runtime hết hạn, nhớ tải về ngay!
+
+---
+
+## Ủng hộ dự án
+
+Nếu bạn thấy dự án này hữu ích, hãy ủng hộ để phát triển thêm nhé! 💖
+
+Mọi đóng góp đều được trân trọng và giúp dự án ngày càng tốt hơn.
+
+<a href="https://paypal.me/trannuyendung">
+  <img src="image/donate.jpeg" alt="Ủng hộ qua PayPal" width="200">
+</a>
+
+**Cảm ơn bạn đã ủng hộ!** 🙌
