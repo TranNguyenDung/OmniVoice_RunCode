@@ -265,6 +265,14 @@ Model đã tải sẽ có file `model_version.json`.
 
 ---
 
+## Nguồn gốc
+
+Model OmniVoice được phát triển bởi [k2-fsa](https://github.com/k2-fsa) trên HuggingFace:
+
+👉 **https://huggingface.co/k2-fsa/OmniVoice**
+
+---
+
 ## Ủng hộ dự án
 
 Nếu bạn thấy dự án này hữu ích, hãy ủng hộ để phát triển thêm nhé! 💖
